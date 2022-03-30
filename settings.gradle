@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "HW"
 include ':app'
+include ':project4_1'
+include ':project4_1:project4_1_modify'
+include ':project4_1_modify'
