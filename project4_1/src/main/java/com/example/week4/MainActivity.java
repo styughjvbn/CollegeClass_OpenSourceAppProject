@@ -41,21 +41,21 @@ public class MainActivity extends AppCompatActivity {
         btnMinus.setOnTouchListener((view, motionEvent) -> {
             str1 = et1.getText().toString();
             str2 = et2.getText().toString();
-            result = Integer.parseInt(str1) + Integer.parseInt(str2);
+            result = Integer.parseInt(str1) - Integer.parseInt(str2);
             tvResult.setText("계산 결과 : " + result.toString());
             return false;
         });
         btnDup.setOnTouchListener((view, motionEvent) -> {
             str1 = et1.getText().toString();
             str2 = et2.getText().toString();
-            result = Integer.parseInt(str1) + Integer.parseInt(str2);
+            result = Integer.parseInt(str1) * Integer.parseInt(str2);
             tvResult.setText("계산 결과 : " + result.toString());
             return false;
         });
         btnDivide.setOnTouchListener((view, motionEvent) -> {
             str1 = et1.getText().toString();
             str2 = et2.getText().toString();
-            result = Integer.parseInt(str1) + Integer.parseInt(str2);
+            result = Integer.parseInt(str1) / Integer.parseInt(str2);
             tvResult.setText("계산 결과 : " + result.toString());
             return false;
         });
