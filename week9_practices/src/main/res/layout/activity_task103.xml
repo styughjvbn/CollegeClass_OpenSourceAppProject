@@ -50,7 +50,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="팀 WAY"
+        android:text="2018038031 서종원"
         android:gravity="center"
         android:textSize="20sp"/>
 

@@ -33,5 +33,5 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Team WAY" />
+        android:text="2018038031 서종원" />
 </LinearLayout>

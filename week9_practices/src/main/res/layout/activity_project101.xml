@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="2018038053 유병주"
+        android:text="2018038031 서종원"
         android:textSize="20sp" />
 
 </LinearLayout>
