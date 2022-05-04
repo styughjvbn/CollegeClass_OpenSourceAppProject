@@ -1,4 +1,4 @@
-package com.example.week9_amsi;
+package com.example.week9_practices;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,14 +9,14 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity{
+public class amsi extends AppCompatActivity{
 
     private Button btnDial, btnWeb, btnGoogle, btnSearch, btnSms, btnPhoto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_amsi);
         setTitle("암시적 인텐트 예제");
 
         init();
